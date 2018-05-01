@@ -68,8 +68,8 @@ class main(object):
 		except KeyboardInterrupt as err:
 			print (str(err)+"Interrupted by user.")
 			sys.exit()
-		self.username = 'regress'
-		self.password = 'MaRtInI'
+		self.username = 'username'
+		self.password = 'Password'
 		self.__main__()
 
 	# Main wrapping function. For debugging, follow this function.
